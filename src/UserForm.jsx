@@ -12,6 +12,8 @@ const UserForm = () => {
    const submiData = (data) => {
     dispatch(addUser(data))
     reset()
+    console.log("test");
+    
    }
   return (
     <>
