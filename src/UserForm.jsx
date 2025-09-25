@@ -13,7 +13,6 @@ const UserForm = () => {
     dispatch(addUser(data))
     reset()
     console.log("test");
-    
    }
   return (
     <>
